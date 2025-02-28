@@ -14,7 +14,11 @@ Archebot was created to give server admins a simple but effective "opt out" butt
 
 To invite Archebot to your server, use this link: https://discord.com/oauth2/authorize?client_id=1344497361564471416&permissions=8192&integration_type=0&scope=bot
 
-Archebot requires permission to view and manage messages. The "Use External Apps" role permission must be *enabled* for all users in order for Archebot to function.
+Archebot requires permission to manage messages. It will only be able to delete messages in channels it can see.
+
+The Use External Apps role permission must be *enabled* for all users that you would like to prevent from using AI.
+
+If the Use External Apps role permission is disabled, the AI will reply with an ephemeral (private) message, preventing Archebot from deleting the AI output.
 
 
 ## Contact
