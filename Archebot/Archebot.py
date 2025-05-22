@@ -4,6 +4,9 @@ import datetime
 import enum
 import logging
 
+# reasons for using an enum instead of a dict here
+# 1. i was planning on doing more stuff with this bot, but decided to keep it simple
+# 2. i like enums :)
 class BlacklistedAI(enum.Enum):
     domo_ai = 1153984868804468756
     insight_face_swap = 1090660574196674713
@@ -15,7 +18,6 @@ class Archebot(commands.Bot):
         intents = discord.Intents.default()
         intents.messages = True
         intents.message_content = True
-        intents.members = True
         with open("token.txt", "r") as f:
             lines = f.readlines()
             self.TOKEN = str(lines[0].strip())
