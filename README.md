@@ -24,5 +24,6 @@ If the Use External Apps role permission is disabled, the AI will reply with an 
 ## Contact
 
 If you have feedback or questions, please contact noobscrub on Discord. You may have to send a friend request first.
+Alternatively, you can contact burcsboon on Bluesky, although I am much less active on there.
 
 You are free to use Archebot's code to create your own Discord bot, with or without crediting me.
